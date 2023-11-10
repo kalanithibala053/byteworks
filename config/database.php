@@ -15,7 +15,7 @@ return [
     |
     */
 
-    'default' => env('DB_CONNECTION', 'pgsql'),
+    'default' => env('DB_CONNECTION', 'mysql'),
 
     /*
     |--------------------------------------------------------------------------
@@ -65,11 +65,11 @@ return [
 
         'pgsql' => [
             'driver'   => 'pgsql',
-            'host'     => env('DB_HOST', 'postgres://byteworks_user:h2GskEQMF4AeGLFgSpjbXEljmNfou0rS@dpg-cl6jn8iuuipc73cobeq0-a.oregon-postgres.render.com/byteworks'),
+            'host'     => env('DB_HOST', 'postgres://hdirbxza:CkxafCO71fg_7AY9jGVurcS2YsyGi9T-@floppy.db.elephantsql.com/hdirbxza'),
             'port'     => env('DB_PORT', '5432'),
-            'database' => env('DB_DATABASE', 'byteworks'),
-            'username' => env('DB_USERNAME', 'byteworks_user'),
-            'password' => env('DB_PASSWORD', 'h2GskEQMF4AeGLFgSpjbXEljmNfou0rS'),
+            'database' => env('DB_DATABASE', 'hdirbxza'),
+            'username' => env('DB_USERNAME', 'hdirbxza'),
+            'password' => env('DB_PASSWORD', 'CkxafCO71fg_7AY9jGVurcS2YsyGi9T-'),
             'charset'  => 'utf8',
             'prefix'   => '',
             'schema'   => 'public',
